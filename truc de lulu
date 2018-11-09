@@ -1,0 +1,18 @@
+print 'Bonjour, marquez un nombre de 4 chiffres '
+
+chiffre = raw_input("Entrez un nombre: ")
+
+if len(chiffre) > 0 :
+  first = chiffre[0]
+  nd = chiffre[1]
+  rd = chiffre[2]
+  four = chiffre[3]
+suite = ['first','nd','rd','four']
+  sort(suite)
+
+
+
+  print (first)
+  print (nd)
+  print (rd)
+  print (four)
