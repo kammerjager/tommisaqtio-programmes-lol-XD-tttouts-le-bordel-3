@@ -1,18 +1,24 @@
-print 'Bonjour, marquez un nombre de 4 chiffres '
+print ('Bonjour, marquez un nombre de 4 chiffres ')
 
-chiffre = raw_input("Entrez un nombre: ")
+chiffre = input("Entrez un nombre: ")
 
-if len(chiffre) > 0 :
-  first = chiffre[0]
-  nd = chiffre[1]
-  rd = chiffre[2]
-  four = chiffre[3]
-suite = ['first','nd','rd','four']
-  sort(suite)
+if len(chiffre) == 4 :
+  a = chiffre[0]
+  b = chiffre[1]
+  c = chiffre[2]
+  d = chiffre[3]
+
+  chiffree = [a,b,c,d]
+  l1 = sorted(chiffree, reverse=False)
+  l2 = sorted(chiffree, reverse=True)
+
+  #chain1 = "".join(list1)
+  #chain2 = "".join(list2)
+  chiffrel = l1-l2
+
+  print(chiffrel)
 
 
 
-  print (first)
-  print (nd)
-  print (rd)
-  print (four)
+  print (list1)
+  print (list2)
