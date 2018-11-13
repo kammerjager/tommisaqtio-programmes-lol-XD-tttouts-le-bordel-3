@@ -1,0 +1,6 @@
+
+lol = input('lalala:' )
+
+lolo = sorted(lol, reverse=True)
+
+print(lolo)
